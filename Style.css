@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+/* Reset all paddings and margins to 0 first*/
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image:linear-gradient(180deg,green,white);
+	/*background-image:url("images/BackgroundGradient.jpg");
+	background-repeat:repeat-x;*/
+}
+#wrapper{
+	width: 1020px;
+	margin: 5px auto;
+	height: 800px;
+	background: green;
+	border:8px;
+	border-style:solid;
+	border-color:green;
+	border-radius:25px;
+}
+#header{
+	background:#ddd;
+	margin:5px 0 0 0;
+	width:100%;
+	height: 100px;
+	border-top-right-radius:15px;
+	border-top-left-radius:15px;
+}
+#navbar{
+	list-style-type:none;
+	margin: 0px;
+	padding: 0px;
+	vertical-align:text-bottom;
+}
+#navbar li{
+	float:left;
+}
+#navbar li a{
+	display:block;
+	width:194px;
+	font-weight:bold;
+	margin:0px;
+	font-size:22px;
+	text-decoration:none;
+	text-align:center;
+	padding:5px;
+}
+#navbar a:link{
+	color:#004000;
+	background-color:#99cc66;
+}
+#navbar a:visited{
+	color:#004000;
+	background-color:#99cc66;
+}
+#navbar a:hover{
+	color:#99cc66;
+	background-color:#004000;
+}
+#navbar a:active{
+	color: lime;
+	background-color:darkgreen;
+}
+#sidebar{
+	float: left;
+	margin: 10px 5px 5px 0px;
+	background: #9c6;
+	width:250px;
+	height: 605px;
+}
+#main_content{
+	float: right;
+	background: #f0f0f0;
+	margin:10px 0px 10px 5px;
+	width:760px;
+	height:605px;
+}
+#footer{
+	clear:both;
+	background:#ddd;
+	width:100%;
+	height:35px;
+	text-align:right;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
