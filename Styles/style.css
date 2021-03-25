@@ -1,0 +1,15 @@
+#wrapper {
+  background: aqua;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #f51010;
+}
+
+button {
+  background: #941ee2;
+}
+/*# sourceMappingURL=style.css.map */

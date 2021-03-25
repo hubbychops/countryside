@@ -1,0 +1,13 @@
+$primaryBtn:rgb(148, 30, 226);
+$textColor : rgb(245, 16, 16);
+
+
+#wrapper{
+    background:aqua;
+    display:flex;
+    justify-content: center;
+    color:$textColor;
+}
+button{
+    background:$primaryBtn;
+}
